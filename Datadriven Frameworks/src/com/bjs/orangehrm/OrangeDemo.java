@@ -39,7 +39,7 @@ public class OrangeDemo {
 		driver.manage().window().maximize();
 		driver.get(url);
 		
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys(username);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
